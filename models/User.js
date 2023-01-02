@@ -14,7 +14,7 @@ const userSchema = new Schema(
     distance: { type: Number, required: false },
     verified: { type: Boolean, required: false, default: false },
     codeOtp: {type: Number, required: false},
-    favsport: {type: String, required:false}
+    favsport: {type: String, required:false},
   },
   { timestamps: true }
 );
